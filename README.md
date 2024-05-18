@@ -1,1 +1,0 @@
-# monokromatik.github.io
