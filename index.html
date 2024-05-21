@@ -1,60 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MONOKROMATIK - Logo design</title>
-    <style>
-      html, body {
-        height: 100%;
-      }
-      body {
-        background-color: #fff;
-        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
-        color: #222;
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      main {
-        padding: 1rem;
-        text-align: center;
-      }
-      h1 {
-        font-size: 2.5rem;
-        line-height: 1.1;
-        margin: 0;
-      }
-      @media screen and (max-width: 480px) {
-        h1 {
-          font-size: 1.5rem;
-        }
-      }
-      h1::after {
-        content: "";
-        background-color: #ffe800;
-        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
-        display: block;
-        height: 0.5rem;
-        margin-top: 1rem;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      p {
-        margin: 1rem 0 0 0;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>MONOKROMATIK</h1>
-      <p>Our website is under construction.</p>
-    </main>
-  </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/milligram.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="column hero">
+                <img id="logo-monokromatik" src="images/logo-monokromatik-min.png" height="90px" width="90px" alt="">
+                <img src="images/monokromatik-logotype.svg" alt="" id="monokromatik">
+                <p>Hello, I'm Ari. <br> I will create logo and brand identity to elevate your business.</p>
+                <button class="button-56" role="button" onclick="window.location.href='https://wa.me/6285963954968';">WhatsApp me</button>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="row">
+                <div class="column"><img src="images/bara-min.png" alt=""></div>
+                <div class="column"><img src="images/hoja bags-min.png" alt=""></div>
+                <div class="column"><img src="images/ROJO-min.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="images/jenius-min.png" alt=""></div>
+                <div class="column"><img src="images/lovela-min.png" alt=""></div>
+                <div class="column"><img src="images/monokromatik-min.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="images/pointstar-min.png" alt=""></div>
+                <div class="column"><img src="images/green-min.png" alt=""></div>
+                <div class="column"><img src="images/rumahmula-min.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="images/spring-media-min.png" alt=""></div>
+                <div class="column"><img src="images/worcester-media-min.png" alt=""></div>
+                <div class="column"><img src="images/order-min.png" alt=""></div>
+            </div>
+        </div>
+        <div class="kontak">
+            <div class="row">
+                <div class="column">
+                    <h2>Do you like what you see? <br> <strong>Order yours now!</strong></h2>
+                    <button class="button-56" role="button" onclick="window.location.href='https://wa.me/6285963954968';">WhatsApp me</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy;2024. Monokromatik - Logo design. All rights reserved.
+        </div>
+    </div>
+
+</body>
 </html>
