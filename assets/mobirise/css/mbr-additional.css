@@ -891,6 +891,7 @@ a {
   background-color: #ffffff;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
+  backdrop-filter: blur(10px);
 }
 @media (max-width: 992px) {
   .cid-tJS6tZXiPa .container {
